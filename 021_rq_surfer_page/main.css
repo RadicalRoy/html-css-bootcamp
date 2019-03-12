@@ -1,0 +1,34 @@
+html {
+  background-color:blue;
+  height:100%
+}
+
+body {
+  margin:0 auto;
+  height:100%;
+}
+
+div {
+  margin:0 auto;
+  background-color:lime;
+  border: solid 5px black;
+  width:60%;
+  height:100%;
+}
+
+img {
+  border: 10px ridge gold;
+  border-radius: 100%;
+  margin:0 auto;
+  display:block;
+}
+
+header {
+  color:red;
+  font-size:25pt;
+  font-style:bold;
+}
+
+header:first-of-type {
+  color:blue;
+}

@@ -1,0 +1,25 @@
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: fuchsia;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color:yellow;
+}
+
+p:first-letter {
+  font-style:italic;
+  font-family:helvetica;
+}
+
+p:first-line {
+  font-style:oblique;
+  color:purple;
+}

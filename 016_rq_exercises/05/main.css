@@ -1,0 +1,10 @@
+div {
+  width:200px;
+  height:200px;
+  background-color:orangered;
+  border-radius:25px;
+  border: groove 20px greenyellow;
+  background-image: url("https://s3.amazonaws.com/s3.kluvfm.radio.com/styles/delta__775x515/s3/dreamstime_xxl_45116795.jpg?itok=vnm0zmRE");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
