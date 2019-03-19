@@ -1,0 +1,45 @@
+html, body {
+  height: 100%
+}
+
+header {
+  border: 1px solid purple;
+  height: 20%;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 3%
+}
+
+h1 {
+
+}
+
+section {
+  border: 1px solid black;
+  height: 40%;
+  width: 48%;
+  display:inline-block;
+  margin-right: 3%
+}
+
+article {
+  border: 1px solid grey;
+  height: 40%;
+  display:block;
+  margin: 3%;
+
+}
+
+aside {
+  border: 1px solid blue;
+  height: 40%;
+  width: 48%;
+  display: inline-block;
+  vertical-align:top;
+}
+
+footer {
+  border: 1px solid green;
+  height: 20%;
+  margin-top: 3%
+}

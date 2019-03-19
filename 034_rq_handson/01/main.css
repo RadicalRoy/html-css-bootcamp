@@ -1,0 +1,38 @@
+html, body, nav, ul, li, a {
+  margin:0;
+  padding:0;
+  border:0;
+
+  box-sizing: border-box;
+}
+
+nav ul {
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  background-color:deepskyblue;
+}
+
+li {
+  display:block;
+}
+
+a {
+  display:block;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  color: white;
+  text-decoration:none;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+
+}
+
+a:hover {
+  background-color: royalblue;
+}
+
+li:last-child {
+  border-bottom: none;
+}

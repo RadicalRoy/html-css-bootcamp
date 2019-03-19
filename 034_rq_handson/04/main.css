@@ -1,0 +1,49 @@
+body, header, article, p, aside, footer {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  font-weight:bold;
+  text-align:center;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header, article, aside, footer {
+  width: 100%;
+  padding:15px 10px;
+}
+
+header, aside, footer {
+  min-height: 55px;
+}
+
+header {
+  background-color: red;
+}
+
+article{
+  background-color: #12B2F6;
+  padding:20px 10px;
+}
+
+p {
+
+}
+
+footer {
+  background-color: #68F843;
+}
+
+aside:nth-child(odd) {
+  background-color:yellow;
+}
+
+aside:nth-child(even) {
+  background-color:hotpink;
+}

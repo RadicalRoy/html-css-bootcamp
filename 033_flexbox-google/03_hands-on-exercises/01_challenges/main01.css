@@ -1,0 +1,39 @@
+html, body, div {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  display:flex;
+  flex-flow: row wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+div {
+  border: 3px solid black;
+  min-height: 150px;
+}
+
+.d1, .d4 {
+  width: 100%;
+  background-image: url("https://assets.saatchiart.com/saatchi/656321/art/4029010/3098863-UQXOVXWO-32.jpg");
+  background-size:100% 100%;
+  background-color:blue;
+
+}
+
+.d2 {
+  width: 40%;
+  background-color:fuchsia;
+  background-image: url("https://images.fineartamerica.com/images-medium-large-5/volcano-madness-deyanira-harris.jpg");
+  background-size: 100% 100%;
+}
+
+.d3 {
+  width: 60%;
+  background-color:red;
+  background-image: url("https://render.fineartamerica.com/images/rendered/default/print/8.000/4.000/break/images-medium-5/thunderstorm-anna-repp.jpg");
+  background-size:100% 100%;
+}

@@ -8,9 +8,16 @@ html {
 
 ul {
     list-style: none;
+    display:block;
+}
+
+a {
+  display:inline-block;
+  border-radius: 50px;
 }
 
 li {
     /*border: 2px solid red;*/
     border-radius: 50px;
+    display:inline-block;
 }

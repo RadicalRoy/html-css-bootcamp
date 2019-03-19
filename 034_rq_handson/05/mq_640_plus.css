@@ -1,0 +1,11 @@
+div {
+  flex-wrap: nowrap;
+}
+
+article {
+  width:50%;
+}
+
+nav, aside {
+  width: 25%;
+}

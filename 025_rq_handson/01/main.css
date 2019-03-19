@@ -1,0 +1,36 @@
+h1 {
+  font-family: serif;
+  text-shadow: 5px -5px 10px orangered;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.upperItalicStrike {
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+
+.lorem {
+  text-indent: 2.5rem;
+}
+
+.spaceBetween {
+  letter-spacing: 1rem;
+}
+
+h2 {
+  font-family: 'Srisakdi', cursive;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Srisakdi', cursive;
+  font-weight: 700;
+}
+
+a {
+  text-decoration:none;
+}

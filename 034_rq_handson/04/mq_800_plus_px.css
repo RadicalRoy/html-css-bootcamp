@@ -1,0 +1,19 @@
+body {
+  justify-content:stretch;
+}
+
+aside {
+  width: 15%;
+  align-self:stretch;
+}
+
+header {
+  order:-2;
+}
+aside:nth-child(odd){
+  order:-1;
+}
+
+article {
+  width:70%;
+}
